@@ -11,16 +11,16 @@
         android:theme="@style/AppTheme">
         <activity android:name=".LinearVertical" />
         <activity android:name=".ScrollingActivity">
-
-        </activity>
-        <activity android:name=".ConstraintLayout">
-        </activity>>
-        <activity android:name=".LinearHorizontal" />
-        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".ConstraintLayout">
+        </activity>
+        <activity android:name=".LinearHorizontal" />
+        <activity android:name=".MainActivity">
+
         </activity>
     </application>
 
